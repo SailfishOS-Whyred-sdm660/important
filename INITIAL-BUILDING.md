@@ -126,8 +126,8 @@ When everything is ready to go we can finally init the local source repository:
 HA_BUILD $
 
 cd $ANDROID_ROOT
-repo init -u git://github.com/sailfishos-oneplus5/android.git -b hybris-15.1 --depth 1
-git clone https://github.com/sailfishos-oneplus5/local_manifests -b hybris-15.1 .repo/local_manifests/
+repo init -u git://github.com/SailfishOS-Whyred-sdm660/SailfishOS_manifest.git -b hybris-15.1.bak --depth 1
+
 ```
 
 Now that the repo is initialized you can start [syncing the local repository](BUILDING.md#syncing-local-repository) as per the [regular porting guide](BUILDING.md).
