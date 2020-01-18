@@ -84,7 +84,7 @@ To verify that the install(s) have succeeded, executing `sdk-assistant list` sho
 ```
 PLATFORM_SDK $ sdk-assistant list
 SailfishOS-3.2.1.20
-|-oneplus-cheeseburger-armv7hl
+|-xiaomi-whyred-armv7hl
 `-oneplus-dumpling-armv7hl
 ```
 
